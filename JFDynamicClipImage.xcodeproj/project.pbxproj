@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74B75D851FCE3A980099AE34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B75D841FCE3A980099AE34 /* AppDelegate.m */; };
+		74B75D881FCE3A980099AE34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B75D871FCE3A980099AE34 /* ViewController.m */; };
+		74B75D8D1FCE3A980099AE34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B75D8C1FCE3A980099AE34 /* Assets.xcassets */; };
+		74B75D901FCE3A980099AE34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B75D8E1FCE3A980099AE34 /* LaunchScreen.storyboard */; };
+		74B75D931FCE3A980099AE34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B75D921FCE3A980099AE34 /* main.m */; };
+		74B75DA11FCE76020099AE34 /* JFPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B75DA01FCE76020099AE34 /* JFPanGestureRecognizer.m */; };
+		CE3155011FD947670066DAC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B75D891FCE3A980099AE34 /* Main.storyboard */; };
+		CE7CF9AE1FDE616400D6D584 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7CF9AD1FDE616300D6D584 /* AVFoundation.framework */; };
+		CEE8B4F81FDA83960098A731 /* JFClipAreaLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B4F71FDA83960098A731 /* JFClipAreaLayer.m */; };
+		CEE8B4FA1FDA84160098A731 /* JFClipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B4F91FDA84160098A731 /* JFClipViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74B75D801FCE3A980099AE34 /* JFDynamicClipImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFDynamicClipImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B75D831FCE3A980099AE34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74B75D841FCE3A980099AE34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74B75D861FCE3A980099AE34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74B75D871FCE3A980099AE34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74B75D8A1FCE3A980099AE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74B75D8C1FCE3A980099AE34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74B75D8F1FCE3A980099AE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74B75D911FCE3A980099AE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B75D921FCE3A980099AE34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74B75D991FCE3AFB0099AE34 /* JFClipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFClipViewController.h; sourceTree = "<group>"; };
+		74B75D9C1FCE42B20099AE34 /* JFClipAreaLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFClipAreaLayer.h; sourceTree = "<group>"; };
+		74B75D9F1FCE76020099AE34 /* JFPanGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFPanGestureRecognizer.h; sourceTree = "<group>"; };
+		74B75DA01FCE76020099AE34 /* JFPanGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFPanGestureRecognizer.m; sourceTree = "<group>"; };
+		960A348D495D06C081C775E6 /* libPods-DynamicClipImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DynamicClipImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7CF9AD1FDE616300D6D584 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CEE8B4F71FDA83960098A731 /* JFClipAreaLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFClipAreaLayer.m; sourceTree = "<group>"; };
+		CEE8B4F91FDA84160098A731 /* JFClipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFClipViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74B75D7D1FCE3A980099AE34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7CF9AE1FDE616400D6D584 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B90EECAD3A6C44BC011A86D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7CF9AD1FDE616300D6D584 /* AVFoundation.framework */,
+				960A348D495D06C081C775E6 /* libPods-DynamicClipImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74B75D771FCE3A980099AE34 = {
+			isa = PBXGroup;
+			children = (
+				74B75D821FCE3A980099AE34 /* DynamicClipImage */,
+				74B75D811FCE3A980099AE34 /* Products */,
+				1B90EECAD3A6C44BC011A86D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74B75D811FCE3A980099AE34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74B75D801FCE3A980099AE34 /* JFDynamicClipImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74B75D821FCE3A980099AE34 /* DynamicClipImage */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8B4FB1FDA86FE0098A731 /* PictureClip */,
+				74B75D831FCE3A980099AE34 /* AppDelegate.h */,
+				74B75D841FCE3A980099AE34 /* AppDelegate.m */,
+				74B75D861FCE3A980099AE34 /* ViewController.h */,
+				74B75D871FCE3A980099AE34 /* ViewController.m */,
+				74B75D891FCE3A980099AE34 /* Main.storyboard */,
+				74B75D8C1FCE3A980099AE34 /* Assets.xcassets */,
+				74B75D8E1FCE3A980099AE34 /* LaunchScreen.storyboard */,
+				74B75D911FCE3A980099AE34 /* Info.plist */,
+				74B75D921FCE3A980099AE34 /* main.m */,
+			);
+			path = DynamicClipImage;
+			sourceTree = "<group>";
+		};
+		CEE8B4FB1FDA86FE0098A731 /* PictureClip */ = {
+			isa = PBXGroup;
+			children = (
+				74B75D991FCE3AFB0099AE34 /* JFClipViewController.h */,
+				CEE8B4F91FDA84160098A731 /* JFClipViewController.m */,
+				74B75D9C1FCE42B20099AE34 /* JFClipAreaLayer.h */,
+				CEE8B4F71FDA83960098A731 /* JFClipAreaLayer.m */,
+				74B75D9F1FCE76020099AE34 /* JFPanGestureRecognizer.h */,
+				74B75DA01FCE76020099AE34 /* JFPanGestureRecognizer.m */,
+			);
+			path = PictureClip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74B75D7F1FCE3A980099AE34 /* JFDynamicClipImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B75D961FCE3A980099AE34 /* Build configuration list for PBXNativeTarget "JFDynamicClipImage" */;
+			buildPhases = (
+				74B75D7C1FCE3A980099AE34 /* Sources */,
+				74B75D7D1FCE3A980099AE34 /* Frameworks */,
+				74B75D7E1FCE3A980099AE34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JFDynamicClipImage;
+			productName = DynamicClipImage;
+			productReference = 74B75D801FCE3A980099AE34 /* JFDynamicClipImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74B75D781FCE3A980099AE34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = yasic;
+				TargetAttributes = {
+					74B75D7F1FCE3A980099AE34 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 74B75D7B1FCE3A980099AE34 /* Build configuration list for PBXProject "JFDynamicClipImage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74B75D771FCE3A980099AE34;
+			productRefGroup = 74B75D811FCE3A980099AE34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74B75D7F1FCE3A980099AE34 /* JFDynamicClipImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74B75D7E1FCE3A980099AE34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3155011FD947670066DAC1 /* Main.storyboard in Resources */,
+				74B75D901FCE3A980099AE34 /* LaunchScreen.storyboard in Resources */,
+				74B75D8D1FCE3A980099AE34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74B75D7C1FCE3A980099AE34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8B4FA1FDA84160098A731 /* JFClipViewController.m in Sources */,
+				CEE8B4F81FDA83960098A731 /* JFClipAreaLayer.m in Sources */,
+				74B75D881FCE3A980099AE34 /* ViewController.m in Sources */,
+				74B75DA11FCE76020099AE34 /* JFPanGestureRecognizer.m in Sources */,
+				74B75D931FCE3A980099AE34 /* main.m in Sources */,
+				74B75D851FCE3A980099AE34 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74B75D891FCE3A980099AE34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B75D8A1FCE3A980099AE34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74B75D8E1FCE3A980099AE34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B75D8F1FCE3A980099AE34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74B75D941FCE3A980099AE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74B75D951FCE3A980099AE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74B75D971FCE3A980099AE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 948PUQ64SN;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = DynamicClipImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = developer.technology.DynamicClipImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		74B75D981FCE3A980099AE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 948PUQ64SN;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = DynamicClipImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = developer.technology.DynamicClipImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74B75D7B1FCE3A980099AE34 /* Build configuration list for PBXProject "JFDynamicClipImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B75D941FCE3A980099AE34 /* Debug */,
+				74B75D951FCE3A980099AE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B75D961FCE3A980099AE34 /* Build configuration list for PBXNativeTarget "JFDynamicClipImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B75D971FCE3A980099AE34 /* Debug */,
+				74B75D981FCE3A980099AE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74B75D781FCE3A980099AE34 /* Project object */;
+}
